@@ -4,11 +4,16 @@ header {
   background-color: #FCEE21;
   color: #333333;
   text-align: center;
+  margin: -30px -10px 0 -10px;
+  padding: 60px 0px 40px 0px;
 }
 
 footer {
   font-family: "Spectral";
   background-color: #FCEE21;
+  padding: 30px 20px 30px 20px;
+  margin: 0px -10px -30px -10px;
+  font-size: 20px;
 }
 
 h1 {
@@ -22,6 +27,7 @@ h2 {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 55px;
 }
 
 h3 {
@@ -36,11 +42,16 @@ a {
   text-transform: uppercase;
   font-family: "Open Sans";
   font-size: 16px;
+  font-weight: bold;
   color: #333333;
+  margin: 10px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid black;
 }
 
 a:hover {
   color: white;
+  border-bottom: 2px solid white;
 }
 
 img {
@@ -51,4 +62,9 @@ img {
 article {
   font-family: "Spectral";
   font-size: 20px;
+  padding: 0px 10px 30px 10px;
+}
+
+hr {
+  padding: 0px 10px 0px 10px;
 }
