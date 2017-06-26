@@ -59,6 +59,12 @@ img {
   margin: 0 auto;
 }
 
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
 article {
   font-family: "Spectral";
   font-size: 20px;
