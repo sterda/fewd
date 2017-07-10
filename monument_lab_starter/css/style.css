@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:600');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	}
+
+body {
+	font-family: "Raleway";
+	text-align: center;
+	color: #44545E;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+p {
+	text-transform: none;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 15px;
+	margin: 50px 0px;
+}
+
+nav {
+	position: sticky;
+  top: 0;
+	background-color: white;
+	padding: 10px;
+}
+
+.navbar {
+	text-decoration: none;
+	color: #7B98AA;
+	font-size: 15px;
+	margin: 20px 50px;
+}
+
+h1 {
+	font-size: 37px;
+	letter-spacing: 15px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 23px;
+	margin: 50px 0px;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 50px 0px;
+}
+
+button {
+	font-size: 13px;
+}
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.about {
+	background-color: #CDF3F6;
+	padding: 50px 150px;
+	margin-bottom: 100px;
+}
+
+.about h2, h3 {
+	margin: 25px 0px;
+}
+
+.issues {
+	display: flex;
+	justify-content: space-around;
+}
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.gallery img {
+	transition: all 0.3s ease 0s;
+}
+
+.gallery img:hover {
+	opacity: 0.75;
+}
+
+article {
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+.image_column {
+	width: 25%;
+}
+
+.image_column img {
+	padding: 5px 10px;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	background-image: url("../images/home_header_bg.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	color: white;
+	margin: 15px 0px 100px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-attachment: fixed;
+}
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    color: #44545E;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+		text-transform: uppercase;
+		font-family: "Raleway";
+		font-size: 13px;
+		font-weight: 600;
+		transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+}
+
+input {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px 50px;
+	border: none;
+	font-family: "Raleway";
+	font-weight: 600;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+	background-color: #CDF3F6;
+}
+
+.social {
+	padding: 25px 0px;
+}
+
+.social a {
+	margin: 0px 10px;
+	color: #44545E;
+}
+
+footer p {
+	border-top: 2px solid black;
+	padding: 25px 0px;
+	font-family: "Lato";
+	font-weight: 400;
+	color: #44545E;
+	font-size: 15px;
+}
