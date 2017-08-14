@@ -1,0 +1,25 @@
+When the user clicks a navbar option (basics, setup, manage, automate)
+	Automatically scroll to that section (identified by anchor/ID on page)
+	add class .selected to current navbar selection
+
+When the user scrolls to the bottom of the page
+	Fade in .demo modal
+	if user clicks outside of modal
+		Fade out .demo modal
+
+When the user scrolls the page
+	if they scrolled to the Teams section
+		Slide down Support
+		300ms delay, Ops
+		600ms delay, IT
+	if they scrolled to the Public vs Private section
+		translateX(from offscreen to the left) and fade in Public section
+		translateX(from offscreen to th eright) and fade in the Private section
+	if they scrolled to the Customizations section
+		Begin automated image carousel
+
+(in Setting Up Status Page section - 4 tabs on lefthand side: Your Account, Components, Incidents, Metrics. Large content area to the right)
+When the user clicks a tab
+	Add class .selected to the clicked tab
+	Hide content of all other tabs
+	Show the content of the clicked tab in the right area
